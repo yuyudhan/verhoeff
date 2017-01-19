@@ -1,0 +1,15 @@
+{
+  "name": "verhoeff",
+  "version": "0.0.2",
+  "description": "Simple implementation of verhoeff checksum algorithm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ankur Pandey <ankurkumarpandey@gmail.com> (https://github.com/yuyudhan)",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0"
+  }
+}
