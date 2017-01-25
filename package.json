@@ -1,6 +1,6 @@
 {
-  "name": "verhoeff",
-  "version": "0.0.2",
+  "name": "node-verhoeff",
+  "version": "0.0.5",
   "description": "Simple implementation of verhoeff checksum algorithm",
   "main": "index.js",
   "scripts": {
