@@ -1,6 +1,6 @@
 # Verhoeff
 Simple implementation of verhoeff checksum implentation in node JS.
-#### Aadhaar numbers & verhoeff
+## Aadhaar numbers & verhoeff
 Did you know aadhaar numbers have last digit as a verhoeff checksum. The idea behind this is to quickly identify typing/data-entry errors on the entry machine.
 
 https://groups.google.com/forum/#!msg/aadhaarauth/eB5hOU-Qtq0/YDcWPdPOXowJ
@@ -23,4 +23,4 @@ Sergey Petushkov, 2014
 
 ##### Understand the math
 For more info on the algorithm: http://en.wikipedia.org/wiki/Verhoeff_algorithm
-by 
+by
