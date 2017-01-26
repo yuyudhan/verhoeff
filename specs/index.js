@@ -11,7 +11,7 @@ describe('Testing the generate function', function() {
     expect(thisModule.generate([4, 9, 6, 8, 5, 8, 2, 4, 5, 1, 5])).to.equal(2);
   });
   it('Should validate aadhaar correctly', function() {
-    expect(thisModule.validateAadhaar('773393045190')).to.equal(true);
+    expect(thisModule.validateAadhaar('773393045189.8')).to.equal(true);
     expect(thisModule.validateAadhaar('773393045191')).to.equal(false);
     expect(thisModule.validateAadhaar('496858245152')).to.equal(true);
   });
