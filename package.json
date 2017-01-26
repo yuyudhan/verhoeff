@@ -1,15 +1,22 @@
 {
   "name": "node-verhoeff",
   "version": "0.0.7",
-  "description": "Simple implementation of verhoeff checksum algorithm",
+  "description": "Simple implementation of verhoeff checksum algorithm in NodeJS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --recursive specs/"
   },
   "author": "Ankur Pandey <ankurkumarpandey@gmail.com> (https://github.com/yuyudhan)",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
     "chai": "^3.5.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yuyudhan/verhoeff.git"
   }
 }
