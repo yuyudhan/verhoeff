@@ -69,8 +69,26 @@ function validate(array) {
   return (c === 0);
 }
 
+function validateAadhaar(aadhaarString) {
+  if (aadhaarString.length != 12) {
+    return new Error('Aadhaar numbers should be 12 digit in length');
+  }
+  if (aadhaarString.match(/[^$,.\d]/)) {
+    return new Error('Aadhaar numbers must contain only numbers');
+  }
+  var aadhaarArray = aadhaarString.split('');
+
+  var toCheckChecksum = aadhaarArray.pop();
+
+  if (generate(aadhaarArray) == toCheckChecksum) {
+    return true;
+  } else {
+    return false;
+  }
+};
 
 module.exports = {};
 module.exports.generate = generate;
 module.exports.validate = validate;
 module.exports.invArray = invArray;
+module.exports.validateAadhaar = validateAadhaar;
