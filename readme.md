@@ -27,3 +27,6 @@ Sergey Petushkov, 2014
 ##### Understand the math
 For more info on the algorithm: http://en.wikipedia.org/wiki/Verhoeff_algorithm
 by
+
+##### Implemented by 
+@yuyudhan, Ankur Pandey
